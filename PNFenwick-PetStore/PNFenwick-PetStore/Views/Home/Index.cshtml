@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Paige's Pet Palace</h1>
+    <p class="lead">Are you ready to find your forever pet? Well our pets are ready for their forever homes! Click below to begin browsing our different animals and breeds and find your companion today!</p>
+    <p><class="btn btn-primary btn-lg">@Html.ActionLink("Pick Your Pet", "Inventory", "Home") &raquo;</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="@Url.Content("~/Content/Images/5507692-cat-m.png")" width="400px" height="300px" />
+    </div>
+    <div class="col-md-4">
+        <img src="@Url.Content("~/Content/Images/cute-puppy.jpg")" width="400px" height="300px" />
+     </div>
+    <div class="col-md-4">
+        <img src="@Url.Content("~/Content/Images/hamster.jpg")" width="400px" height="300px"/>
+    </div>
+</div>
